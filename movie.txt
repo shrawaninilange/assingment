@@ -1,0 +1,1600 @@
+
+> show dbs
+admin       0.000GB
+config      0.000GB
+local       0.000GB
+mock_movie  0.000GB
+> use mock_movie
+switched to db mock_movie
+> show collections
+movies
+> db.movies.find({}).pretty()
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026589"),
+        "id" : 1,
+        "movie_name" : "Weary River",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2013,
+        "budget" : 13062
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658a"),
+        "id" : 2,
+        "movie_name" : "Touch of Zen, A (Xia nu)",
+        "movie_genres" : "Action|Adventure",
+        "production_year" : 2010,
+        "budget" : 18335
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658b"),
+        "id" : 3,
+        "movie_name" : "Bad Luck (Zezowate szczescie)",
+        "movie_genres" : "Comedy",
+        "production_year" : 1992,
+        "budget" : 14367
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658c"),
+        "id" : 4,
+        "movie_name" : "Barabbas",
+        "movie_genres" : "Adventure|Drama",
+        "production_year" : 1994,
+        "budget" : 10125
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658d"),
+        "id" : 5,
+        "movie_name" : "Blood and Sand",
+        "movie_genres" : "Drama",
+        "production_year" : 1991,
+        "budget" : 13587
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658e"),
+        "id" : 6,
+        "movie_name" : "Vida precoz y breve de Sabina Rivas, La (Precocious and Brief Life of Sabina Rivas, The)",
+        "movie_genres" : "Adventure|Drama|Romance",
+        "production_year" : 2017,
+        "budget" : 9313
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658f"),
+        "id" : 7,
+        "movie_name" : "Last Temptation of Christ, The",
+        "movie_genres" : "Drama",
+        "production_year" : 1992,
+        "budget" : 19476
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026590"),
+        "id" : 8,
+        "movie_name" : "Fourth State, The (Die vierte Macht)",
+        "movie_genres" : "Thriller",
+        "production_year" : 1996,
+        "budget" : 10228
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026591"),
+        "id" : 9,
+        "movie_name" : "L'homme qui rit",
+        "movie_genres" : "Drama|Fantasy|Romance",
+        "production_year" : 2020,
+        "budget" : 11940
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026592"),
+        "id" : 10,
+        "movie_name" : "Shane",
+        "movie_genres" : "Drama|Western",
+        "production_year" : 2006,
+        "budget" : 17205
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026593"),
+        "id" : 11,
+        "movie_name" : "Twenty Days Without War (Dvadtsat dney bez voyny)",
+        "movie_genres" : "Drama|Romance|War",
+        "production_year" : 2010,
+        "budget" : 14365
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026594"),
+        "id" : 12,
+        "movie_name" : "Primal",
+        "movie_genres" : "Horror|Thriller",
+        "production_year" : 2016,
+        "budget" : 13131
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026595"),
+        "id" : 13,
+        "movie_name" : "Knightriders",
+        "movie_genres" : "Action|Adventure|Drama",
+        "production_year" : 1994,
+        "budget" : 13769
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026596"),
+        "id" : 14,
+        "movie_name" : "Frozen City (Valkoinen kaupunki) ",
+        "movie_genres" : "Drama",
+        "production_year" : 2013,
+        "budget" : 18539
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026597"),
+        "id" : 15,
+        "movie_name" : "Dirty Dancing: Havana Nights",
+        "movie_genres" : "Romance",
+        "production_year" : 2017,
+        "budget" : 18488
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026598"),
+        "id" : 16,
+        "movie_name" : "Festival Express",
+        "movie_genres" : "Documentary|Musical",
+        "production_year" : 1997,
+        "budget" : 9207
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026599"),
+        "id" : 17,
+        "movie_name" : "Late Marriage (Hatuna Meuheret)",
+        "movie_genres" : "Comedy|Drama|Romance",
+        "production_year" : 1999,
+        "budget" : 15210
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659a"),
+        "id" : 18,
+        "movie_name" : "Fallen Angel",
+        "movie_genres" : "Crime|Film-Noir|Mystery|Romance",
+        "production_year" : 1992,
+        "budget" : 17664
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659b"),
+        "id" : 19,
+        "movie_name" : "O Panishyros Megistanas Ton Ninja",
+        "movie_genres" : "Action|Comedy|Sci-Fi",
+        "production_year" : 2006,
+        "budget" : 19529
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659c"),
+        "id" : 20,
+        "movie_name" : "Inside Job",
+        "movie_genres" : "Documentary",
+        "production_year" : 1994,
+        "budget" : 11215
+}
+Type "it" for more
+> db.movies.find({movie_name:{$eq:"Fallen Angel"}}).pretty()
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659a"),
+        "id" : 18,
+        "movie_name" : "Fallen Angel",
+        "movie_genres" : "Crime|Film-Noir|Mystery|Romance",
+        "production_year" : 1992,
+        "budget" : 17664
+}
+> db.movies.find({movie_name:{$ne:"Inside Job"}}).pretty()
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026589"),
+        "id" : 1,
+        "movie_name" : "Weary River",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2013,
+        "budget" : 13062
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658a"),
+        "id" : 2,
+        "movie_name" : "Touch of Zen, A (Xia nu)",
+        "movie_genres" : "Action|Adventure",
+        "production_year" : 2010,
+        "budget" : 18335
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658b"),
+        "id" : 3,
+        "movie_name" : "Bad Luck (Zezowate szczescie)",
+        "movie_genres" : "Comedy",
+        "production_year" : 1992,
+        "budget" : 14367
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658c"),
+        "id" : 4,
+        "movie_name" : "Barabbas",
+        "movie_genres" : "Adventure|Drama",
+        "production_year" : 1994,
+        "budget" : 10125
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658d"),
+        "id" : 5,
+        "movie_name" : "Blood and Sand",
+        "movie_genres" : "Drama",
+        "production_year" : 1991,
+        "budget" : 13587
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658e"),
+        "id" : 6,
+        "movie_name" : "Vida precoz y breve de Sabina Rivas, La (Precocious and Brief Life of Sabina Rivas, The)",
+        "movie_genres" : "Adventure|Drama|Romance",
+        "production_year" : 2017,
+        "budget" : 9313
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658f"),
+        "id" : 7,
+        "movie_name" : "Last Temptation of Christ, The",
+        "movie_genres" : "Drama",
+        "production_year" : 1992,
+        "budget" : 19476
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026590"),
+        "id" : 8,
+        "movie_name" : "Fourth State, The (Die vierte Macht)",
+        "movie_genres" : "Thriller",
+        "production_year" : 1996,
+        "budget" : 10228
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026591"),
+        "id" : 9,
+        "movie_name" : "L'homme qui rit",
+        "movie_genres" : "Drama|Fantasy|Romance",
+        "production_year" : 2020,
+        "budget" : 11940
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026592"),
+        "id" : 10,
+        "movie_name" : "Shane",
+        "movie_genres" : "Drama|Western",
+        "production_year" : 2006,
+        "budget" : 17205
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026593"),
+        "id" : 11,
+        "movie_name" : "Twenty Days Without War (Dvadtsat dney bez voyny)",
+        "movie_genres" : "Drama|Romance|War",
+        "production_year" : 2010,
+        "budget" : 14365
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026594"),
+        "id" : 12,
+        "movie_name" : "Primal",
+        "movie_genres" : "Horror|Thriller",
+        "production_year" : 2016,
+        "budget" : 13131
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026595"),
+        "id" : 13,
+        "movie_name" : "Knightriders",
+        "movie_genres" : "Action|Adventure|Drama",
+        "production_year" : 1994,
+        "budget" : 13769
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026596"),
+        "id" : 14,
+        "movie_name" : "Frozen City (Valkoinen kaupunki) ",
+        "movie_genres" : "Drama",
+        "production_year" : 2013,
+        "budget" : 18539
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026597"),
+        "id" : 15,
+        "movie_name" : "Dirty Dancing: Havana Nights",
+        "movie_genres" : "Romance",
+        "production_year" : 2017,
+        "budget" : 18488
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026598"),
+        "id" : 16,
+        "movie_name" : "Festival Express",
+        "movie_genres" : "Documentary|Musical",
+        "production_year" : 1997,
+        "budget" : 9207
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026599"),
+        "id" : 17,
+        "movie_name" : "Late Marriage (Hatuna Meuheret)",
+        "movie_genres" : "Comedy|Drama|Romance",
+        "production_year" : 1999,
+        "budget" : 15210
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659a"),
+        "id" : 18,
+        "movie_name" : "Fallen Angel",
+        "movie_genres" : "Crime|Film-Noir|Mystery|Romance",
+        "production_year" : 1992,
+        "budget" : 17664
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659b"),
+        "id" : 19,
+        "movie_name" : "O Panishyros Megistanas Ton Ninja",
+        "movie_genres" : "Action|Comedy|Sci-Fi",
+        "production_year" : 2006,
+        "budget" : 19529
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659d"),
+        "id" : 21,
+        "movie_name" : "Over the Edge",
+        "movie_genres" : "Crime|Drama",
+        "production_year" : 2011,
+        "budget" : 9461
+}
+Type "it" for more
+> db.movies.find({"budget": {$gte: 13218}}).pretty()
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658a"),
+        "id" : 2,
+        "movie_name" : "Touch of Zen, A (Xia nu)",
+        "movie_genres" : "Action|Adventure",
+        "production_year" : 2010,
+        "budget" : 18335
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658b"),
+        "id" : 3,
+        "movie_name" : "Bad Luck (Zezowate szczescie)",
+        "movie_genres" : "Comedy",
+        "production_year" : 1992,
+        "budget" : 14367
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658d"),
+        "id" : 5,
+        "movie_name" : "Blood and Sand",
+        "movie_genres" : "Drama",
+        "production_year" : 1991,
+        "budget" : 13587
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658f"),
+        "id" : 7,
+        "movie_name" : "Last Temptation of Christ, The",
+        "movie_genres" : "Drama",
+        "production_year" : 1992,
+        "budget" : 19476
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026592"),
+        "id" : 10,
+        "movie_name" : "Shane",
+        "movie_genres" : "Drama|Western",
+        "production_year" : 2006,
+        "budget" : 17205
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026593"),
+        "id" : 11,
+        "movie_name" : "Twenty Days Without War (Dvadtsat dney bez voyny)",
+        "movie_genres" : "Drama|Romance|War",
+        "production_year" : 2010,
+        "budget" : 14365
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026595"),
+        "id" : 13,
+        "movie_name" : "Knightriders",
+        "movie_genres" : "Action|Adventure|Drama",
+        "production_year" : 1994,
+        "budget" : 13769
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026596"),
+        "id" : 14,
+        "movie_name" : "Frozen City (Valkoinen kaupunki) ",
+        "movie_genres" : "Drama",
+        "production_year" : 2013,
+        "budget" : 18539
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026597"),
+        "id" : 15,
+        "movie_name" : "Dirty Dancing: Havana Nights",
+        "movie_genres" : "Romance",
+        "production_year" : 2017,
+        "budget" : 18488
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026599"),
+        "id" : 17,
+        "movie_name" : "Late Marriage (Hatuna Meuheret)",
+        "movie_genres" : "Comedy|Drama|Romance",
+        "production_year" : 1999,
+        "budget" : 15210
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659a"),
+        "id" : 18,
+        "movie_name" : "Fallen Angel",
+        "movie_genres" : "Crime|Film-Noir|Mystery|Romance",
+        "production_year" : 1992,
+        "budget" : 17664
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659b"),
+        "id" : 19,
+        "movie_name" : "O Panishyros Megistanas Ton Ninja",
+        "movie_genres" : "Action|Comedy|Sci-Fi",
+        "production_year" : 2006,
+        "budget" : 19529
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659e"),
+        "id" : 22,
+        "movie_name" : "Melvin Goes to Dinner",
+        "movie_genres" : "Comedy|Drama",
+        "production_year" : 2011,
+        "budget" : 17913
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659f"),
+        "id" : 23,
+        "movie_name" : "The Stone Council",
+        "movie_genres" : "Adventure|Crime|Drama|Fantasy|Mystery|Thriller",
+        "production_year" : 2003,
+        "budget" : 16631
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a0"),
+        "id" : 24,
+        "movie_name" : "My Favorite Brunette",
+        "movie_genres" : "Comedy|Mystery",
+        "production_year" : 1994,
+        "budget" : 17838
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a4"),
+        "id" : 28,
+        "movie_name" : "Heat",
+        "movie_genres" : "Action|Crime|Thriller",
+        "production_year" : 1991,
+        "budget" : 19679
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a6"),
+        "id" : 30,
+        "movie_name" : "Brotherhood of the Wolf (Pacte des loups, Le)",
+        "movie_genres" : "Action|Mystery|Thriller",
+        "production_year" : 2002,
+        "budget" : 13218
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a8"),
+        "id" : 32,
+        "movie_name" : "Sister Helen ",
+        "movie_genres" : "Documentary",
+        "production_year" : 2010,
+        "budget" : 16199
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265aa"),
+        "id" : 34,
+        "movie_name" : "All the Real Girls",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2017,
+        "budget" : 15009
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265ab"),
+        "id" : 35,
+        "movie_name" : "Ziegfeld Follies",
+        "movie_genres" : "Comedy|Musical",
+        "production_year" : 1994,
+        "budget" : 18065
+}
+Type "it" for more
+> db.movies.find({"budget": {$lte: 13218}}).pretty()
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026589"),
+        "id" : 1,
+        "movie_name" : "Weary River",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2013,
+        "budget" : 13062
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658c"),
+        "id" : 4,
+        "movie_name" : "Barabbas",
+        "movie_genres" : "Adventure|Drama",
+        "production_year" : 1994,
+        "budget" : 10125
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658e"),
+        "id" : 6,
+        "movie_name" : "Vida precoz y breve de Sabina Rivas, La (Precocious and Brief Life of Sabina Rivas, The)",
+        "movie_genres" : "Adventure|Drama|Romance",
+        "production_year" : 2017,
+        "budget" : 9313
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026590"),
+        "id" : 8,
+        "movie_name" : "Fourth State, The (Die vierte Macht)",
+        "movie_genres" : "Thriller",
+        "production_year" : 1996,
+        "budget" : 10228
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026591"),
+        "id" : 9,
+        "movie_name" : "L'homme qui rit",
+        "movie_genres" : "Drama|Fantasy|Romance",
+        "production_year" : 2020,
+        "budget" : 11940
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026594"),
+        "id" : 12,
+        "movie_name" : "Primal",
+        "movie_genres" : "Horror|Thriller",
+        "production_year" : 2016,
+        "budget" : 13131
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026598"),
+        "id" : 16,
+        "movie_name" : "Festival Express",
+        "movie_genres" : "Documentary|Musical",
+        "production_year" : 1997,
+        "budget" : 9207
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659c"),
+        "id" : 20,
+        "movie_name" : "Inside Job",
+        "movie_genres" : "Documentary",
+        "production_year" : 1994,
+        "budget" : 11215
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659d"),
+        "id" : 21,
+        "movie_name" : "Over the Edge",
+        "movie_genres" : "Crime|Drama",
+        "production_year" : 2011,
+        "budget" : 9461
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a1"),
+        "id" : 25,
+        "movie_name" : "He's Just Not That Into You",
+        "movie_genres" : "Comedy|Drama|Romance",
+        "production_year" : 2013,
+        "budget" : 9016
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a2"),
+        "id" : 26,
+        "movie_name" : "Gloriously Wasted",
+        "movie_genres" : "Comedy",
+        "production_year" : 2008,
+        "budget" : 12722
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a3"),
+        "id" : 27,
+        "movie_name" : "Homage",
+        "movie_genres" : "Drama",
+        "production_year" : 1995,
+        "budget" : 11247
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a5"),
+        "id" : 29,
+        "movie_name" : "Dredd",
+        "movie_genres" : "Action|Sci-Fi",
+        "production_year" : 2018,
+        "budget" : 9928
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a6"),
+        "id" : 30,
+        "movie_name" : "Brotherhood of the Wolf (Pacte des loups, Le)",
+        "movie_genres" : "Action|Mystery|Thriller",
+        "production_year" : 2002,
+        "budget" : 13218
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a7"),
+        "id" : 31,
+        "movie_name" : "Eegah",
+        "movie_genres" : "Fantasy|Horror|Romance|Thriller",
+        "production_year" : 1991,
+        "budget" : 11917
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a9"),
+        "id" : 33,
+        "movie_name" : "Game of Death II (a.k.a. Tower of Death) (Si wang ta)",
+        "movie_genres" : "Action|Mystery",
+        "production_year" : 2018,
+        "budget" : 10303
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265ad"),
+        "id" : 37,
+        "movie_name" : "Elephant in the Living Room, The",
+        "movie_genres" : "Documentary",
+        "production_year" : 2008,
+        "budget" : 9236
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265b1"),
+        "id" : 41,
+        "movie_name" : "Venom",
+        "movie_genres" : "Horror|Thriller",
+        "production_year" : 1994,
+        "budget" : 9250
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265b2"),
+        "id" : 42,
+        "movie_name" : "Sunday",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2001,
+        "budget" : 9709
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265b5"),
+        "id" : 45,
+        "movie_name" : "At Long Last Love",
+        "movie_genres" : "Comedy|Musical|Romance",
+        "production_year" : 1998,
+        "budget" : 9679
+}
+Type "it" for more
+> db.movies.find({$and: [{"production_year":{$gt:2000}}, {"budget":{$gt:10000}}]}).pretty()
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026589"),
+        "id" : 1,
+        "movie_name" : "Weary River",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2013,
+        "budget" : 13062
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658a"),
+        "id" : 2,
+        "movie_name" : "Touch of Zen, A (Xia nu)",
+        "movie_genres" : "Action|Adventure",
+        "production_year" : 2010,
+        "budget" : 18335
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026591"),
+        "id" : 9,
+        "movie_name" : "L'homme qui rit",
+        "movie_genres" : "Drama|Fantasy|Romance",
+        "production_year" : 2020,
+        "budget" : 11940
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026592"),
+        "id" : 10,
+        "movie_name" : "Shane",
+        "movie_genres" : "Drama|Western",
+        "production_year" : 2006,
+        "budget" : 17205
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026593"),
+        "id" : 11,
+        "movie_name" : "Twenty Days Without War (Dvadtsat dney bez voyny)",
+        "movie_genres" : "Drama|Romance|War",
+        "production_year" : 2010,
+        "budget" : 14365
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026594"),
+        "id" : 12,
+        "movie_name" : "Primal",
+        "movie_genres" : "Horror|Thriller",
+        "production_year" : 2016,
+        "budget" : 13131
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026596"),
+        "id" : 14,
+        "movie_name" : "Frozen City (Valkoinen kaupunki) ",
+        "movie_genres" : "Drama",
+        "production_year" : 2013,
+        "budget" : 18539
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026597"),
+        "id" : 15,
+        "movie_name" : "Dirty Dancing: Havana Nights",
+        "movie_genres" : "Romance",
+        "production_year" : 2017,
+        "budget" : 18488
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659b"),
+        "id" : 19,
+        "movie_name" : "O Panishyros Megistanas Ton Ninja",
+        "movie_genres" : "Action|Comedy|Sci-Fi",
+        "production_year" : 2006,
+        "budget" : 19529
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659e"),
+        "id" : 22,
+        "movie_name" : "Melvin Goes to Dinner",
+        "movie_genres" : "Comedy|Drama",
+        "production_year" : 2011,
+        "budget" : 17913
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659f"),
+        "id" : 23,
+        "movie_name" : "The Stone Council",
+        "movie_genres" : "Adventure|Crime|Drama|Fantasy|Mystery|Thriller",
+        "production_year" : 2003,
+        "budget" : 16631
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a2"),
+        "id" : 26,
+        "movie_name" : "Gloriously Wasted",
+        "movie_genres" : "Comedy",
+        "production_year" : 2008,
+        "budget" : 12722
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a6"),
+        "id" : 30,
+        "movie_name" : "Brotherhood of the Wolf (Pacte des loups, Le)",
+        "movie_genres" : "Action|Mystery|Thriller",
+        "production_year" : 2002,
+        "budget" : 13218
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a8"),
+        "id" : 32,
+        "movie_name" : "Sister Helen ",
+        "movie_genres" : "Documentary",
+        "production_year" : 2010,
+        "budget" : 16199
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a9"),
+        "id" : 33,
+        "movie_name" : "Game of Death II (a.k.a. Tower of Death) (Si wang ta)",
+        "movie_genres" : "Action|Mystery",
+        "production_year" : 2018,
+        "budget" : 10303
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265aa"),
+        "id" : 34,
+        "movie_name" : "All the Real Girls",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2017,
+        "budget" : 15009
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265ac"),
+        "id" : 36,
+        "movie_name" : "Tyson",
+        "movie_genres" : "Documentary",
+        "production_year" : 2002,
+        "budget" : 14311
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265ae"),
+        "id" : 38,
+        "movie_name" : "Player's Club, The",
+        "movie_genres" : "Comedy|Drama",
+        "production_year" : 2014,
+        "budget" : 17822
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265b0"),
+        "id" : 40,
+        "movie_name" : "Sex and Breakfast",
+        "movie_genres" : "Comedy|Drama|Romance",
+        "production_year" : 2008,
+        "budget" : 19554
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265b3"),
+        "id" : 43,
+        "movie_name" : "Accident on Hill Road",
+        "movie_genres" : "Crime|Drama|Thriller",
+        "production_year" : 2009,
+        "budget" : 13695
+}
+Type "it" for more
+> db.movies.find({$or: [{"production_year":{$gt:2000}}, {"budget":{$gt:10000}}]}).pretty()
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026589"),
+        "id" : 1,
+        "movie_name" : "Weary River",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2013,
+        "budget" : 13062
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658a"),
+        "id" : 2,
+        "movie_name" : "Touch of Zen, A (Xia nu)",
+        "movie_genres" : "Action|Adventure",
+        "production_year" : 2010,
+        "budget" : 18335
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658b"),
+        "id" : 3,
+        "movie_name" : "Bad Luck (Zezowate szczescie)",
+        "movie_genres" : "Comedy",
+        "production_year" : 1992,
+        "budget" : 14367
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658c"),
+        "id" : 4,
+        "movie_name" : "Barabbas",
+        "movie_genres" : "Adventure|Drama",
+        "production_year" : 1994,
+        "budget" : 10125
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658d"),
+        "id" : 5,
+        "movie_name" : "Blood and Sand",
+        "movie_genres" : "Drama",
+        "production_year" : 1991,
+        "budget" : 13587
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658e"),
+        "id" : 6,
+        "movie_name" : "Vida precoz y breve de Sabina Rivas, La (Precocious and Brief Life of Sabina Rivas, The)",
+        "movie_genres" : "Adventure|Drama|Romance",
+        "production_year" : 2017,
+        "budget" : 9313
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658f"),
+        "id" : 7,
+        "movie_name" : "Last Temptation of Christ, The",
+        "movie_genres" : "Drama",
+        "production_year" : 1992,
+        "budget" : 19476
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026590"),
+        "id" : 8,
+        "movie_name" : "Fourth State, The (Die vierte Macht)",
+        "movie_genres" : "Thriller",
+        "production_year" : 1996,
+        "budget" : 10228
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026591"),
+        "id" : 9,
+        "movie_name" : "L'homme qui rit",
+        "movie_genres" : "Drama|Fantasy|Romance",
+        "production_year" : 2020,
+        "budget" : 11940
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026592"),
+        "id" : 10,
+        "movie_name" : "Shane",
+        "movie_genres" : "Drama|Western",
+        "production_year" : 2006,
+        "budget" : 17205
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026593"),
+        "id" : 11,
+        "movie_name" : "Twenty Days Without War (Dvadtsat dney bez voyny)",
+        "movie_genres" : "Drama|Romance|War",
+        "production_year" : 2010,
+        "budget" : 14365
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026594"),
+        "id" : 12,
+        "movie_name" : "Primal",
+        "movie_genres" : "Horror|Thriller",
+        "production_year" : 2016,
+        "budget" : 13131
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026595"),
+        "id" : 13,
+        "movie_name" : "Knightriders",
+        "movie_genres" : "Action|Adventure|Drama",
+        "production_year" : 1994,
+        "budget" : 13769
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026596"),
+        "id" : 14,
+        "movie_name" : "Frozen City (Valkoinen kaupunki) ",
+        "movie_genres" : "Drama",
+        "production_year" : 2013,
+        "budget" : 18539
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026597"),
+        "id" : 15,
+        "movie_name" : "Dirty Dancing: Havana Nights",
+        "movie_genres" : "Romance",
+        "production_year" : 2017,
+        "budget" : 18488
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026599"),
+        "id" : 17,
+        "movie_name" : "Late Marriage (Hatuna Meuheret)",
+        "movie_genres" : "Comedy|Drama|Romance",
+        "production_year" : 1999,
+        "budget" : 15210
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659a"),
+        "id" : 18,
+        "movie_name" : "Fallen Angel",
+        "movie_genres" : "Crime|Film-Noir|Mystery|Romance",
+        "production_year" : 1992,
+        "budget" : 17664
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659b"),
+        "id" : 19,
+        "movie_name" : "O Panishyros Megistanas Ton Ninja",
+        "movie_genres" : "Action|Comedy|Sci-Fi",
+        "production_year" : 2006,
+        "budget" : 19529
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659c"),
+        "id" : 20,
+        "movie_name" : "Inside Job",
+        "movie_genres" : "Documentary",
+        "production_year" : 1994,
+        "budget" : 11215
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659d"),
+        "id" : 21,
+        "movie_name" : "Over the Edge",
+        "movie_genres" : "Crime|Drama",
+        "production_year" : 2011,
+        "budget" : 9461
+}
+Type "it" for more
+> db.movies.find({$nor: [{"production_year":{$gt:2000}}, {"budget":{$gt:10000}}]}).pretty()
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026598"),
+        "id" : 16,
+        "movie_name" : "Festival Express",
+        "movie_genres" : "Documentary|Musical",
+        "production_year" : 1997,
+        "budget" : 9207
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265b1"),
+        "id" : 41,
+        "movie_name" : "Venom",
+        "movie_genres" : "Horror|Thriller",
+        "production_year" : 1994,
+        "budget" : 9250
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265b5"),
+        "id" : 45,
+        "movie_name" : "At Long Last Love",
+        "movie_genres" : "Comedy|Musical|Romance",
+        "production_year" : 1998,
+        "budget" : 9679
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026640"),
+        "id" : 184,
+        "movie_name" : "Carbine Williams",
+        "movie_genres" : "Crime|Drama",
+        "production_year" : 1997,
+        "budget" : 9364
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026665"),
+        "id" : 221,
+        "movie_name" : "Small Town, The (a.k.a. The Town) (Kasaba)",
+        "movie_genres" : "Drama",
+        "production_year" : 1993,
+        "budget" : 9228
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026667"),
+        "id" : 223,
+        "movie_name" : "Shane",
+        "movie_genres" : "Drama|Western",
+        "production_year" : 1994,
+        "budget" : 9791
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026689"),
+        "id" : 257,
+        "movie_name" : "Road Trip: Beer Pong",
+        "movie_genres" : "Comedy",
+        "production_year" : 1991,
+        "budget" : 9692
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0266a5"),
+        "id" : 285,
+        "movie_name" : "Frank and Ollie",
+        "movie_genres" : "Documentary",
+        "production_year" : 1995,
+        "budget" : 9530
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02671c"),
+        "id" : 404,
+        "movie_name" : "Tomorrow at Dawn (Demain dès l'aube)",
+        "movie_genres" : "Drama",
+        "production_year" : 1990,
+        "budget" : 9269
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026735"),
+        "id" : 429,
+        "movie_name" : "Tol'able David",
+        "movie_genres" : "Drama",
+        "production_year" : 1990,
+        "budget" : 9428
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026774"),
+        "id" : 492,
+        "movie_name" : "Love & Human Remains",
+        "movie_genres" : "Comedy|Drama",
+        "production_year" : 1996,
+        "budget" : 9418
+}
+Type "it" for more
+> db.movies.find({$or: [{"production_year":{$ne:2000}}, {"budget":{$ne:10000}}]}).pretty()
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026589"),
+        "id" : 1,
+        "movie_name" : "Weary River",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2013,
+        "budget" : 13062
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658a"),
+        "id" : 2,
+        "movie_name" : "Touch of Zen, A (Xia nu)",
+        "movie_genres" : "Action|Adventure",
+        "production_year" : 2010,
+        "budget" : 18335
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658b"),
+        "id" : 3,
+        "movie_name" : "Bad Luck (Zezowate szczescie)",
+        "movie_genres" : "Comedy",
+        "production_year" : 1992,
+        "budget" : 14367
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658c"),
+        "id" : 4,
+        "movie_name" : "Barabbas",
+        "movie_genres" : "Adventure|Drama",
+        "production_year" : 1994,
+        "budget" : 10125
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658d"),
+        "id" : 5,
+        "movie_name" : "Blood and Sand",
+        "movie_genres" : "Drama",
+        "production_year" : 1991,
+        "budget" : 13587
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658e"),
+        "id" : 6,
+        "movie_name" : "Vida precoz y breve de Sabina Rivas, La (Precocious and Brief Life of Sabina Rivas, The)",
+        "movie_genres" : "Adventure|Drama|Romance",
+        "production_year" : 2017,
+        "budget" : 9313
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02658f"),
+        "id" : 7,
+        "movie_name" : "Last Temptation of Christ, The",
+        "movie_genres" : "Drama",
+        "production_year" : 1992,
+        "budget" : 19476
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026590"),
+        "id" : 8,
+        "movie_name" : "Fourth State, The (Die vierte Macht)",
+        "movie_genres" : "Thriller",
+        "production_year" : 1996,
+        "budget" : 10228
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026591"),
+        "id" : 9,
+        "movie_name" : "L'homme qui rit",
+        "movie_genres" : "Drama|Fantasy|Romance",
+        "production_year" : 2020,
+        "budget" : 11940
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026592"),
+        "id" : 10,
+        "movie_name" : "Shane",
+        "movie_genres" : "Drama|Western",
+        "production_year" : 2006,
+        "budget" : 17205
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026593"),
+        "id" : 11,
+        "movie_name" : "Twenty Days Without War (Dvadtsat dney bez voyny)",
+        "movie_genres" : "Drama|Romance|War",
+        "production_year" : 2010,
+        "budget" : 14365
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026594"),
+        "id" : 12,
+        "movie_name" : "Primal",
+        "movie_genres" : "Horror|Thriller",
+        "production_year" : 2016,
+        "budget" : 13131
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026595"),
+        "id" : 13,
+        "movie_name" : "Knightriders",
+        "movie_genres" : "Action|Adventure|Drama",
+        "production_year" : 1994,
+        "budget" : 13769
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026596"),
+        "id" : 14,
+        "movie_name" : "Frozen City (Valkoinen kaupunki) ",
+        "movie_genres" : "Drama",
+        "production_year" : 2013,
+        "budget" : 18539
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026597"),
+        "id" : 15,
+        "movie_name" : "Dirty Dancing: Havana Nights",
+        "movie_genres" : "Romance",
+        "production_year" : 2017,
+        "budget" : 18488
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026598"),
+        "id" : 16,
+        "movie_name" : "Festival Express",
+        "movie_genres" : "Documentary|Musical",
+        "production_year" : 1997,
+        "budget" : 9207
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026599"),
+        "id" : 17,
+        "movie_name" : "Late Marriage (Hatuna Meuheret)",
+        "movie_genres" : "Comedy|Drama|Romance",
+        "production_year" : 1999,
+        "budget" : 15210
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659a"),
+        "id" : 18,
+        "movie_name" : "Fallen Angel",
+        "movie_genres" : "Crime|Film-Noir|Mystery|Romance",
+        "production_year" : 1992,
+        "budget" : 17664
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659b"),
+        "id" : 19,
+        "movie_name" : "O Panishyros Megistanas Ton Ninja",
+        "movie_genres" : "Action|Comedy|Sci-Fi",
+        "production_year" : 2006,
+        "budget" : 19529
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659c"),
+        "id" : 20,
+        "movie_name" : "Inside Job",
+        "movie_genres" : "Documentary",
+        "production_year" : 1994,
+        "budget" : 11215
+}
+Type "it" for more
+> db.movies.find({$and: [{"production_year":{$gt:2000}}, {"production_year":{$lt:2010}}]}).pretty()
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026592"),
+        "id" : 10,
+        "movie_name" : "Shane",
+        "movie_genres" : "Drama|Western",
+        "production_year" : 2006,
+        "budget" : 17205
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659b"),
+        "id" : 19,
+        "movie_name" : "O Panishyros Megistanas Ton Ninja",
+        "movie_genres" : "Action|Comedy|Sci-Fi",
+        "production_year" : 2006,
+        "budget" : 19529
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02659f"),
+        "id" : 23,
+        "movie_name" : "The Stone Council",
+        "movie_genres" : "Adventure|Crime|Drama|Fantasy|Mystery|Thriller",
+        "production_year" : 2003,
+        "budget" : 16631
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a2"),
+        "id" : 26,
+        "movie_name" : "Gloriously Wasted",
+        "movie_genres" : "Comedy",
+        "production_year" : 2008,
+        "budget" : 12722
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265a6"),
+        "id" : 30,
+        "movie_name" : "Brotherhood of the Wolf (Pacte des loups, Le)",
+        "movie_genres" : "Action|Mystery|Thriller",
+        "production_year" : 2002,
+        "budget" : 13218
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265ac"),
+        "id" : 36,
+        "movie_name" : "Tyson",
+        "movie_genres" : "Documentary",
+        "production_year" : 2002,
+        "budget" : 14311
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265ad"),
+        "id" : 37,
+        "movie_name" : "Elephant in the Living Room, The",
+        "movie_genres" : "Documentary",
+        "production_year" : 2008,
+        "budget" : 9236
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265b0"),
+        "id" : 40,
+        "movie_name" : "Sex and Breakfast",
+        "movie_genres" : "Comedy|Drama|Romance",
+        "production_year" : 2008,
+        "budget" : 19554
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265b2"),
+        "id" : 42,
+        "movie_name" : "Sunday",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2001,
+        "budget" : 9709
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265b3"),
+        "id" : 43,
+        "movie_name" : "Accident on Hill Road",
+        "movie_genres" : "Crime|Drama|Thriller",
+        "production_year" : 2009,
+        "budget" : 13695
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265ba"),
+        "id" : 50,
+        "movie_name" : "Looking for Eric",
+        "movie_genres" : "Comedy|Drama|Fantasy",
+        "production_year" : 2001,
+        "budget" : 16253
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265bc"),
+        "id" : 52,
+        "movie_name" : "Postman Blues",
+        "movie_genres" : "Action|Comedy|Crime|Drama",
+        "production_year" : 2009,
+        "budget" : 10165
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265c4"),
+        "id" : 60,
+        "movie_name" : "Fog City Mavericks",
+        "movie_genres" : "Documentary",
+        "production_year" : 2004,
+        "budget" : 12938
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265c5"),
+        "id" : 61,
+        "movie_name" : "Henry IV, Part II (Second Part of King Henry the Fourth, including his death and the coronation of King Henry the Fifth, The)",
+        "movie_genres" : "Drama",
+        "production_year" : 2001,
+        "budget" : 12246
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265c6"),
+        "id" : 62,
+        "movie_name" : "Surviving Picasso",
+        "movie_genres" : "Drama",
+        "production_year" : 2007,
+        "budget" : 12069
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265c9"),
+        "id" : 65,
+        "movie_name" : "Vanilla Sky",
+        "movie_genres" : "Mystery|Romance|Sci-Fi|Thriller",
+        "production_year" : 2002,
+        "budget" : 16433
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265ca"),
+        "id" : 66,
+        "movie_name" : "Offspring ",
+        "movie_genres" : "Horror",
+        "production_year" : 2002,
+        "budget" : 9362
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265cb"),
+        "id" : 67,
+        "movie_name" : "Spontaneous Combustion",
+        "movie_genres" : "Horror|Sci-Fi|Thriller",
+        "production_year" : 2003,
+        "budget" : 17696
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265ce"),
+        "id" : 70,
+        "movie_name" : "Mad Max Beyond Thunderdome",
+        "movie_genres" : "Action|Adventure|Sci-Fi",
+        "production_year" : 2009,
+        "budget" : 13105
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265d0"),
+        "id" : 72,
+        "movie_name" : "Rabid Grannies (Mémés cannibales, Les)",
+        "movie_genres" : "Comedy|Horror",
+        "production_year" : 2004,
+        "budget" : 19261
+}
+Type "it" for more
+> db.movies.find().sort({production_year:-1,movie_name:1}).pretty()
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265ea"),
+        "id" : 98,
+        "movie_name" : "11.6",
+        "movie_genres" : "Crime|Drama",
+        "production_year" : 2020,
+        "budget" : 15707
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026677"),
+        "id" : 239,
+        "movie_name" : "13 Assassins (Jûsan-nin no shikaku)",
+        "movie_genres" : "Action",
+        "production_year" : 2020,
+        "budget" : 10888
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265f7"),
+        "id" : 111,
+        "movie_name" : "ATL",
+        "movie_genres" : "Drama",
+        "production_year" : 2020,
+        "budget" : 18161
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02661f"),
+        "id" : 151,
+        "movie_name" : "Above Us Only Sky",
+        "movie_genres" : "Drama",
+        "production_year" : 2020,
+        "budget" : 13064
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02675d"),
+        "id" : 469,
+        "movie_name" : "Asterix in Britain (Astérix chez les Bretons)",
+        "movie_genres" : "Adventure|Animation|Children|Comedy",
+        "production_year" : 2020,
+        "budget" : 19332
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026734"),
+        "id" : 428,
+        "movie_name" : "Butter",
+        "movie_genres" : "Comedy",
+        "production_year" : 2020,
+        "budget" : 14690
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02667f"),
+        "id" : 247,
+        "movie_name" : "Hush",
+        "movie_genres" : "Horror|Thriller",
+        "production_year" : 2020,
+        "budget" : 16913
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0266e2"),
+        "id" : 346,
+        "movie_name" : "Kleines Arschloch - Der Film",
+        "movie_genres" : "Animation|Comedy",
+        "production_year" : 2020,
+        "budget" : 16580
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026591"),
+        "id" : 9,
+        "movie_name" : "L'homme qui rit",
+        "movie_genres" : "Drama|Fantasy|Romance",
+        "production_year" : 2020,
+        "budget" : 11940
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0266dd"),
+        "id" : 341,
+        "movie_name" : "Lascars",
+        "movie_genres" : "Animation|Comedy",
+        "production_year" : 2020,
+        "budget" : 13095
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02664c"),
+        "id" : 196,
+        "movie_name" : "Les Feux Arctiques (Arktiset tulet)",
+        "movie_genres" : "Documentary|Drama",
+        "production_year" : 2020,
+        "budget" : 9878
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026691"),
+        "id" : 265,
+        "movie_name" : "Letter, The (La lettre)",
+        "movie_genres" : "Drama",
+        "production_year" : 2020,
+        "budget" : 19925
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026684"),
+        "id" : 252,
+        "movie_name" : "Lie with Me",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2020,
+        "budget" : 9496
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026642"),
+        "id" : 186,
+        "movie_name" : "Place of One's Own, A",
+        "movie_genres" : "Drama|Mystery|Thriller",
+        "production_year" : 2020,
+        "budget" : 13227
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0266d0"),
+        "id" : 328,
+        "movie_name" : "Seventh Heaven (Septième ciel, Le)",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2020,
+        "budget" : 14078
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0266ce"),
+        "id" : 326,
+        "movie_name" : "Shoulder Arms",
+        "movie_genres" : "Comedy|War",
+        "production_year" : 2020,
+        "budget" : 14161
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0266fd"),
+        "id" : 373,
+        "movie_name" : "Sunday Bloody Sunday",
+        "movie_genres" : "Drama",
+        "production_year" : 2020,
+        "budget" : 19511
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026686"),
+        "id" : 254,
+        "movie_name" : "Tale of Springtime, A (Conte de Printemps)",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2020,
+        "budget" : 19704
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02671a"),
+        "id" : 402,
+        "movie_name" : "The Last Five Years",
+        "movie_genres" : "Comedy|Drama|Musical|Romance",
+        "production_year" : 2020,
+        "budget" : 10857
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e0265fb"),
+        "id" : 115,
+        "movie_name" : "Tokyo Fiancée",
+        "movie_genres" : "(no genres listed)",
+        "production_year" : 2020,
+        "budget" : 13302
+}
+Type "it" for more
+> db.movies.find().sort({production_year:-1,movie_name:1}).skip(10).limit(5).pretty()
+{
+        "_id" : ObjectId("622a51696fb4b7c15e02664c"),
+        "id" : 196,
+        "movie_name" : "Les Feux Arctiques (Arktiset tulet)",
+        "movie_genres" : "Documentary|Drama",
+        "production_year" : 2020,
+        "budget" : 9878
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026691"),
+        "id" : 265,
+        "movie_name" : "Letter, The (La lettre)",
+        "movie_genres" : "Drama",
+        "production_year" : 2020,
+        "budget" : 19925
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026684"),
+        "id" : 252,
+        "movie_name" : "Lie with Me",
+        "movie_genres" : "Drama|Romance",
+        "production_year" : 2020,
+        "budget" : 9496
+}
+{
+        "_id" : ObjectId("622a51696fb4b7c15e026642"),
+        "id" : 186,
+        "movie_name" : "Place of One's Own, A",
+        "movie_genres" : "Drama|Mystery|Thriller",
+        "production_year" : 2020,
+        "budget" : 13227
+}
